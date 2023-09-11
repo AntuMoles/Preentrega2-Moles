@@ -30,7 +30,7 @@ body {
 
 }
 
-.footer {
+footer {
     background-color: rgb(0, 0, 0);
     border: solid;
     border-bottom-color: gold;
@@ -86,10 +86,12 @@ li {
 }
 .grid{
     max-width: 400px;
-    max-height: 600px;
+    max-height: 400px;
     align-items: center;
     margin: 0;
     padding: 0;
+    border-color: darkgrey;
+    border-radius: 2px;
  
 }
 /*.IPA {
@@ -144,7 +146,7 @@ li {
 
 .whatsap {
 
-
+    display: flex;
     position: absolute;
     bottom: 360px;
     left: 470px;
@@ -209,6 +211,6 @@ li {
 
 }
 p{
-    background-color:aqua
+    background-color:rgba(158, 158, 158, 0.363)
     
 }
