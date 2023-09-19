@@ -7,7 +7,16 @@ body {
     left: 0px;
 
 }
+h1{
+    background-color: darkgray;
+    display: flex;
+ 
+    -ms-flex-align: center;
+    text-align: center;
+    justify-content: center;
 
+   
+}
 .text {
     color: aliceblue;
     font-size: 50px;
@@ -94,40 +103,7 @@ li {
     border-radius: 2px;
  
 }
-/*.IPA {
-    background-color: beige;
-    color: darkgreen;
-    position: absolute;
-    bottom: 350px;
-    left: 80px;
-}
 
-.NEGRA {
-    background-color: black;
-    color: white;
-    position: absolute;
-    bottom: 420px;
-    left: 550px;
-    font-size: 35px;
-}
-
-.ROJA {
-    background-color: rgb(116, 0, 0);
-    color: white;
-    position: absolute;
-    bottom: 420px;
-    left: 830px;
-    font-size: 35px;
-}
-
-.DORADA {
-    background-color: rgb(214, 164, 0);
-    color: white;
-    position: absolute;
-    bottom: 450px;
-    left: 1100px;
-    font-size: 30px;
-}*/
 
 /*Contacto*/
 
@@ -180,14 +156,14 @@ li {
 /*novedades*/
 
 .fondoN {
-    background: fixed;
+   background-size: 100%;
 
 }
 
 .fondo {
-    position: absolute;
-    left: 720px;
+   
 }
+
 
 .novedad {
     font-size: 40px;
@@ -214,3 +190,4 @@ p{
     background-color:rgba(158, 158, 158, 0.363)
     
 }
+
