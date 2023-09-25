@@ -2,21 +2,88 @@ body {
     background-color: azure
 }
 
+.Theader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(https://www.clarin.com/2016/06/22/rJl5ocitVl_1256x620.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.s1 {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin: 45px;
+    padding: 45px;
+}
+
+
+
+
+
+
+.s2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ-UzC7tHk3jTafrse76LeWGzEN8KmffxASoLizX48LGVbOmKp2HFTLq5HNTu-SDjNeRU&usqp=CAU);
+    background-position: center bottom;
+    color: aliceblue;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+.st{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin: 45px;
+    padding: 45px;
+}
+
+
+.s3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+     url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2WZ1GTJty7PQaExZ5WYoV-D7F3GfmgiQwSJuDaRAJu25pK5KmBnPLkBV6FRZ3XrFDjzc&usqp=CAU);
+    background-position: center bottom;
+    color: aliceblue;
+    background-size: cover;
+    min-height: 150vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+}
+
+p {
+
+
+    text-align: right;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.intro {
+    text-align: center;
+
+}
+
 .logo {
     position: absolute;
     left: 0px;
 
 }
-h1{
-    background-color: darkgray;
-    display: flex;
- 
-    -ms-flex-align: center;
-    text-align: center;
-    justify-content: center;
 
-   
-}
+
 .text {
     color: aliceblue;
     font-size: 50px;
@@ -60,17 +127,16 @@ footer {
     position: sticky;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
+    text
 }
 
-.grid{
+.grid {
     max-width: 400px;
     max-height: 600px;
     align-items: center;
     margin: 0;
     padding: 0;
- 
+
 }
 
 li {
@@ -79,7 +145,9 @@ li {
     padding-inline-start: 15px;
     padding-inline-end: 15px;
     color: aliceblue;
+
 }
+
 
 .color {
     color: white;
@@ -93,7 +161,8 @@ li {
 .productos {
     background-color: honeydew
 }
-.grid{
+
+.grid {
     max-width: 400px;
     max-height: 400px;
     align-items: center;
@@ -101,15 +170,12 @@ li {
     padding: 0;
     border-color: darkgrey;
     border-radius: 2px;
- 
+
 }
 
 
 /*Contacto*/
-
-
-
-.contactos {
+clor .contactos {
     color: rgb(41, 28, 1);
     font-size: 25px;
     text-align: center;
@@ -126,6 +192,7 @@ li {
     position: absolute;
     bottom: 360px;
     left: 470px;
+
 
 
 
@@ -156,13 +223,11 @@ li {
 /*novedades*/
 
 .fondoN {
-   background-size: 100%;
+    background-size: 100%;
 
 }
 
-.fondo {
-   
-}
+.fondo {}
 
 
 .novedad {
@@ -186,8 +251,3 @@ li {
 
 
 }
-p{
-    background-color:rgba(158, 158, 158, 0.363)
-    
-}
-
